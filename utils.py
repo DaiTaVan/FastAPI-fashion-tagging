@@ -7,6 +7,7 @@ import pandas as pd
 import json
 import time
 
+
 class FashionTagging():
 
   def __init__(self, model_path  = 'mask_rcnn_model'):
@@ -17,9 +18,12 @@ class FashionTagging():
       print(f'Loading model sucessfully in {int(load_end - load_start)}s')
 
       self.model = model.signatures['serving_default']
-
       self.category_map, self.attribute_map, self.category_to_attribute_map, self.imposible_pair, \
       self.merging_map, self.type_of_cloth = self.load_map()
+
+      # first run
+      self.process_one_image(cv2.cvtColor(cv2.imread('assets/polo (shirt)_2.jpeg'), cv2.COLOR_BGR2RGB))
+
 
   def process_one_image(self, img_ori, id = 1):
       img = tf.constant(img_ori, dtype = tf.uint8)
