@@ -1,0 +1,47 @@
+,id,name,supercategory,level
+0,1,"shirt, blouse",upperbody,2
+1,2,"top, t-shirt, sweatshirt",upperbody,2
+2,3,sweater,upperbody,2
+3,4,cardigan,upperbody,2
+4,5,jacket,upperbody,2
+5,6,vest,upperbody,2
+6,7,pants,lowerbody,2
+7,8,shorts,lowerbody,2
+8,9,skirt,lowerbody,2
+9,10,coat,wholebody,2
+10,11,dress,wholebody,2
+11,12,jumpsuit,wholebody,2
+12,13,cape,wholebody,2
+13,14,glasses,head,2
+14,15,hat,head,2
+15,16,"headband, head covering, hair accessory",head,2
+16,17,tie,neck,2
+17,18,glove,arms and hands,2
+18,19,watch,arms and hands,2
+19,20,belt,waist,2
+20,21,leg warmer,legs and feet,2
+21,22,"tights, stockings",legs and feet,2
+22,23,sock,legs and feet,2
+23,24,shoe,legs and feet,2
+24,25,"bag, wallet",others,2
+25,26,scarf,others,2
+26,27,umbrella,others,2
+27,28,hood,garment parts,2
+28,29,collar,garment parts,2
+29,30,lapel,garment parts,2
+30,31,epaulette,garment parts,2
+31,32,sleeve,garment parts,2
+32,33,pocket,garment parts,2
+33,34,neckline,garment parts,2
+34,35,buckle,closures,2
+35,36,zipper,closures,2
+36,37,applique,decorations,2
+37,38,bead,decorations,2
+38,39,bow,decorations,2
+39,40,flower,decorations,2
+40,41,fringe,decorations,2
+41,42,ribbon,decorations,2
+42,43,rivet,decorations,2
+43,44,ruffle,decorations,2
+44,45,sequin,decorations,2
+45,46,tassel,decorations,2

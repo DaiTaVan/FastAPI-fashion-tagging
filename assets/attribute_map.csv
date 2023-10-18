@@ -1,0 +1,295 @@
+id,name,supercategory,level,threshold
+0,classic (t-shirt),nickname,1,0.3558276891708374
+1,polo (shirt),nickname,1,0.3386588394641876
+2,undershirt,nickname,1,0.2487088143825531
+3,henley (shirt),nickname,1,0.3124656081199646
+4,ringer (t-shirt),nickname,1,0.2361001521348953
+5,raglan (t-shirt),nickname,1,0.3201381266117096
+6,rugby (shirt),nickname,1,0.3652251958847046
+7,sailor (shirt),nickname,1,0.3881594240665436
+8,crop (top),nickname,1,0.4648450016975403
+9,halter (top),nickname,1,0.2631154358386993
+10,camisole,nickname,1,0.3569949865341186
+11,tank (top),nickname,1,0.3599241375923157
+12,peasant (top),nickname,1,0.2626377642154693
+13,tube (top),nickname,1,0.4140578210353851
+14,tunic (top),nickname,1,0.2775754928588867
+15,smock (top),nickname,1,0.1909933239221573
+16,hoodie,nickname,1,0.3245993852615356
+17,blazer,nickname,1,0.4251369833946228
+18,pea (jacket),nickname,1,0.2254108935594558
+19,puffer (jacket),nickname,1,0.3111327588558197
+20,biker (jacket),nickname,1,0.4128097891807556
+21,trucker (jacket),nickname,1,0.4217011332511902
+22,bomber (jacket),nickname,1,0.350688487291336
+23,anorak,nickname,1,0.2077283561229705
+24,safari (jacket),nickname,1,0.2250163108110427
+25,mao (jacket),nickname,1,0.3
+26,nehru (jacket),nickname,1,0.0143350223079323
+27,norfolk (jacket),nickname,1,0.2169758826494217
+28,classic military (jacket),nickname,1,0.1976459175348281
+29,track (jacket),nickname,1,0.2467724233865738
+30,windbreaker,nickname,1,0.2444031983613968
+31,chanel (jacket),nickname,1,0.2614218592643738
+32,bolero,nickname,1,0.4173137843608856
+33,tuxedo (jacket),nickname,1,0.352581113576889
+34,varsity (jacket),nickname,1,0.2997584044933319
+35,crop (jacket),nickname,1,0.3756957948207855
+36,jeans,nickname,1,0.4039159417152405
+37,sweatpants,nickname,1,0.206197589635849
+38,leggings,nickname,1,0.3276460468769073
+39,hip-huggers (pants),nickname,1,0.4495679140090942
+40,cargo (pants),nickname,1,0.3872193396091461
+41,culottes,nickname,1,0.3181605637073517
+42,capri (pants),nickname,1,0.2150484025478363
+43,harem (pants),nickname,1,0.3115195333957672
+44,sailor (pants),nickname,1,0.320783257484436
+45,jodhpur,nickname,1,0.271910160779953
+46,peg (pants),nickname,1,0.2906039655208587
+47,camo (pants),nickname,1,0.3765083849430084
+48,track (pants),nickname,1,0.136735126376152
+49,crop (pants),nickname,1,0.2680463790893554
+50,short (shorts),nickname,1,0.4742941856384277
+51,booty (shorts),nickname,1,0.1557486057281494
+52,bermuda (shorts),nickname,1,0.3352764844894409
+53,cargo (shorts),nickname,1,0.2789514064788818
+54,trunks,nickname,1,0.4216864109039306
+55,boardshorts,nickname,1,0.1934808045625686
+56,skort,nickname,1,0.0942180603742599
+57,roll-up (shorts),nickname,1,0.3180330991744995
+58,tie-up (shorts),nickname,1,0.3309625685214996
+59,culotte (shorts),nickname,1,0.3818120062351227
+60,lounge (shorts),nickname,1,0.2805242538452148
+61,bloomers,nickname,1,0.0879879891872406
+62,tutu (skirt),nickname,1,0.2978253066539764
+63,kilt,nickname,1,0.2425101399421692
+64,wrap (skirt),nickname,1,0.2108040601015091
+65,skater (skirt),nickname,1,0.3702255189418793
+66,cargo (skirt),nickname,1,0.1526641398668289
+67,hobble (skirt),nickname,1,0.3135910332202911
+68,sheath (skirt),nickname,1,0.3928339779376983
+69,ball gown (skirt),nickname,1,0.4474954903125763
+70,gypsy (skirt),nickname,1,0.3641003370285034
+71,rah-rah (skirt),nickname,1,0.2960648834705353
+72,prairie (skirt),nickname,1,0.3929797112941742
+73,flamenco (skirt),nickname,1,0.0178598519414663
+74,accordion (skirt),nickname,1,0.4136683642864227
+75,sarong (skirt),nickname,1,0.1319070756435394
+76,tulip (skirt),nickname,1,0.2766471207141876
+77,dirndl (skirt),nickname,1,0.3732417225837707
+78,godet (skirt),nickname,1,0.1919678449630737
+79,blanket (coat),nickname,1,0.2659874856472015
+80,parka,nickname,1,0.2526042461395263
+81,trench (coat),nickname,1,0.2742222249507904
+82,pea (coat),nickname,1,0.3467886447906494
+83,shearling (coat),nickname,1,0.2437475472688675
+84,teddy bear (coat),nickname,1,0.3228161334991455
+85,puffer (coat),nickname,1,0.3336644172668457
+86,duster (coat),nickname,1,0.3688989281654358
+87,raincoat,nickname,1,0.1234011799097061
+88,kimono,nickname,1,0.3022106885910034
+89,robe,nickname,1,0.2055871337652206
+90,dress (coat ),nickname,1,0.2051727175712585
+91,duffle (coat),nickname,1,0.2112053632736206
+92,wrap (coat),nickname,1,0.3648013174533844
+93,military (coat),nickname,1,0.2811363041400909
+94,swing (coat),nickname,1,0.241477683186531
+95,halter (dress),nickname,1,0.3283426761627197
+96,wrap (dress),nickname,1,0.3224867284297943
+97,chemise (dress),nickname,1,0.2070653289556503
+98,slip (dress),nickname,1,0.3803526759147644
+99,cheongsams,nickname,1,0.1560106128454208
+100,jumper (dress),nickname,1,0.2277898639440536
+101,shift (dress),nickname,1,0.3299758732318878
+102,sheath (dress),nickname,1,0.3376714885234833
+103,shirt (dress),nickname,1,0.2923651933670044
+104,sundress,nickname,1,0.3432855606079101
+105,kaftan,nickname,1,0.2907171845436096
+106,bodycon (dress),nickname,1,0.3319263458251953
+107,nightgown,nickname,1,0.2500040531158447
+108,gown,nickname,1,0.415509432554245
+109,sweater (dress),nickname,1,0.2783084809780121
+110,tea (dress),nickname,1,0.2641956508159637
+111,blouson (dress),nickname,1,0.3037255108356476
+112,tunic (dress),nickname,1,0.287979394197464
+113,skater (dress),nickname,1,0.3424367606639862
+114,asymmetrical,silhouette,1,0.3273080885410309
+115,symmetrical,silhouette,1,0.3664945363998413
+116,peplum,silhouette,1,0.3386357128620147
+117,circle,silhouette,1,0.2952983975410461
+118,flare,silhouette,1,0.335233598947525
+119,fit and flare,silhouette,1,0.3106433451175689
+120,trumpet,silhouette,1,0.3041739761829376
+121,mermaid,silhouette,1,0.3174242377281189
+122,balloon,silhouette,1,0.214807778596878
+123,bell,silhouette,1,0.3088468909263611
+124,bell bottom,silhouette,1,0.2396319508552551
+125,bootcut,silhouette,1,0.3884845077991485
+126,peg,silhouette,1,0.3044520914554596
+127,pencil,silhouette,1,0.3621992766857147
+128,straight,silhouette,1,0.3526206910610199
+129,a-line,silhouette,1,0.3267265856266022
+130,tent,silhouette,1,0.2655429542064667
+131,baggy,silhouette,1,0.2405012398958206
+132,wide leg,silhouette,1,0.3501575887203216
+133,high low,silhouette,1,0.3710578083992004
+134,curved (fit),silhouette,1,0.2361908704042434
+135,tight (fit),silhouette,1,0.3433403372764587
+136,regular (fit),silhouette,1,0.3456437885761261
+137,loose (fit),silhouette,1,0.3048095107078552
+138,oversized,silhouette,1,0.2494442909955978
+139,empire waistline,waistline,1,0.3155006170272827
+140,dropped waistline,waistline,1,0.3029102385044098
+141,high waist,waistline,1,0.3267679810523987
+142,normal waist,waistline,1,0.3312675356864929
+143,low waist,waistline,1,0.3125575482845306
+144,basque (wasitline),waistline,1,0.2540222406387329
+145,no waistline,waistline,1,0.3397155404090881
+146,above-the-hip (length),length,1,0.352193683385849
+147,hip (length),length,1,0.3605872094631195
+148,micro (length),length,1,0.3237354755401611
+149,mini (length),length,1,0.3888983726501465
+150,above-the-knee (length),length,1,0.3229154646396637
+151,knee (length),length,1,0.3167771995067596
+152,below the knee (length),length,1,0.3345242142677307
+153,midi,length,1,0.3644163310527801
+154,maxi (length),length,1,0.4405250251293182
+155,floor (length),length,1,0.4110907614231109
+156,sleeveless,length,1,0.2922107279300689
+157,short (length),length,1,0.4485527276992798
+158,elbow-length,length,1,0.3301718533039093
+159,three quarter (length),length,1,0.3400039076805115
+160,wrist-length,length,1,0.4313721656799316
+161,asymmetric (collar),nickname,1,0.1679816544055938
+162,regular (collar),nickname,1,0.3368210196495056
+163,shirt (collar),nickname,1,0.3341757655143738
+164,polo (collar),nickname,1,0.2814811468124389
+165,chelsea (collar),nickname,1,0.2421945035457611
+166,banded (collar),nickname,1,0.3444090783596039
+167,mandarin (collar),nickname,1,0.2917408049106598
+168,peter pan (collar),nickname,1,0.3109223246574402
+169,bow (collar),nickname,1,0.2724047601222992
+170,stand-away (collar),nickname,1,0.2521174252033233
+171,jabot (collar),nickname,1,0.0769797563552856
+172,sailor (collar),nickname,1,0.158310666680336
+173,oversized (collar),nickname,1,0.2921565473079681
+174,notched (lapel),nickname,1,0.3432604968547821
+175,peak (lapel),nickname,1,0.301888644695282
+176,shawl (lapel),nickname,1,0.3832782208919525
+177,napoleon (lapel),nickname,1,0.3427160978317261
+178,oversized (lapel),nickname,1,0.3194785118103027
+179,collarless,neckline type,1,0.3084789216518402
+180,asymmetric (neckline),neckline type,1,0.3592728972434997
+181,crew (neck),neckline type,1,0.2690928280353546
+182,round (neck),neckline type,1,0.3728620111942291
+183,v-neck,neckline type,1,0.36094531416893
+184,surplice (neck),neckline type,1,0.3280256986618042
+185,oval (neck),neckline type,1,0.318823903799057
+186,u-neck,neckline type,1,0.3373442888259887
+187,sweetheart (neckline),neckline type,1,0.4016746580600738
+188,queen anne (neck),neckline type,1,0.2995687425136566
+189,boat (neck),neckline type,1,0.3129374086856842
+190,scoop (neck),neckline type,1,0.2994556725025177
+191,square (neckline),neckline type,1,0.2758447527885437
+192,plunging (neckline),neckline type,1,0.3514369130134582
+193,keyhole (neck),neckline type,1,0.2699226438999176
+194,halter (neck),neckline type,1,0.4136750996112823
+195,crossover (neck),neckline type,1,0.3989659249782562
+196,choker (neck),neckline type,1,0.2849306464195251
+197,high (neck),neckline type,1,0.3058893382549286
+198,turtle (neck),neckline type,1,0.3142668306827545
+199,cowl (neck),neckline type,1,0.4519146680831909
+200,straight across (neck),neckline type,1,0.4144715070724487
+201,illusion (neck),neckline type,1,0.2636513411998749
+202,off-the-shoulder,neckline type,1,0.3985817432403564
+203,one shoulder,neckline type,1,0.3628554940223694
+204,set-in sleeve,nickname,1,0.381590723991394
+205,dropped-shoulder sleeve,nickname,1,0.3349392414093017
+206,raglan (sleeve),nickname,1,0.2814887464046478
+207,cap (sleeve),nickname,1,0.3376958966255188
+208,tulip (sleeve),nickname,1,0.2426468431949615
+209,puff (sleeve),nickname,1,0.2985550761222839
+210,bell (sleeve),nickname,1,0.2681961357593536
+211,circular flounce (sleeve),nickname,1,0.2424069792032241
+212,poet (sleeve),nickname,1,0.2138512283563614
+213,"dolman (sleeve), batwing (sleeve)",nickname,1,0.2933463454246521
+214,bishop (sleeve),nickname,1,0.2631637156009674
+215,leg of mutton (sleeve),nickname,1,0.2521679997444153
+216,kimono (sleeve),nickname,1,0.3211577236652374
+217,cargo (pocket),nickname,1,0.2686027288436889
+218,patch (pocket),nickname,1,0.355734646320343
+219,welt (pocket),nickname,1,0.3553999066352844
+220,kangaroo (pocket),nickname,1,0.5882852673530579
+221,seam (pocket),nickname,1,0.2999670505523681
+222,slash (pocket),nickname,1,0.3835900127887726
+223,curved (pocket),nickname,1,0.3898225128650665
+224,flap (pocket),nickname,1,0.3625199794769287
+225,single breasted,opening type,1,0.3983807861804962
+226,double breasted,opening type,1,0.2829505205154419
+227,lace up,opening type,1,0.2298590540885925
+228,wrapping,opening type,1,0.2816831469535827
+229,zip-up,opening type,1,0.371871680021286
+230,fly (opening),opening type,1,0.370484709739685
+231,chained (opening),opening type,1,0.1150358095765113
+232,buckled (opening),opening type,1,0.1563905924558639
+233,toggled (opening),opening type,1,0.2668870985507965
+234,no opening,opening type,1,0.3129397332668304
+281,plastic,non-textile material type,1,0.2837538123130798
+282,rubber,non-textile material type,1,0.1815495043992996
+283,metal,non-textile material type,1,0.305662989616394
+285,feather,non-textile material type,1,0.364271730184555
+286,gem,non-textile material type,1,0.290672093629837
+287,bone,non-textile material type,1,0.3
+288,ivory,non-textile material type,1,0.3
+289,fur,non-textile material type,1,0.3836545646190643
+290,suede,leather,2,0.218699961900711
+291,shearling,leather,2,0.2313056886196136
+292,crocodile,leather,2,0.2651304602622986
+293,snakeskin,leather,2,0.0527385957539081
+294,wood,non-textile material type,1,0.0233691930770874
+295,no non-textile material,non-textile material type,1,0.3862740397453308
+296,burnout,"textile finishing, manufacturing techniques",1,0.2629584372043609
+297,distressed,"textile finishing, manufacturing techniques",1,0.3302945792675018
+298,washed,"textile finishing, manufacturing techniques",1,0.3593182563781738
+299,embossed,"textile finishing, manufacturing techniques",1,0.109931580722332
+300,frayed,"textile finishing, manufacturing techniques",1,0.3212359845638275
+301,printed,"textile finishing, manufacturing techniques",1,0.3536745905876159
+302,ruched,"textile finishing, manufacturing techniques",1,0.282479465007782
+303,quilted,"textile finishing, manufacturing techniques",1,0.2941082715988159
+304,pleat,"textile finishing, manufacturing techniques",1,0.3176478743553161
+305,gathering,"textile finishing, manufacturing techniques",1,0.2965874969959259
+306,smocking,"textile finishing, manufacturing techniques",1,0.3028985559940338
+307,tiered,"textile finishing, manufacturing techniques",1,0.3340218365192413
+308,cutout,"textile finishing, manufacturing techniques",1,0.2753767967224121
+309,slit,"textile finishing, manufacturing techniques",1,0.3162984549999237
+310,perforated,"textile finishing, manufacturing techniques",1,0.2208544760942459
+311,lining,"textile finishing, manufacturing techniques",1,0.3614929914474487
+312,applique(a),"textile finishing, manufacturing techniques",1,0.2979067265987396
+313,bead(a),"textile finishing, manufacturing techniques",1,0.3558903634548187
+314,rivet(a),"textile finishing, manufacturing techniques",1,0.2395825684070587
+315,sequin(a),"textile finishing, manufacturing techniques",1,0.2562906742095947
+316,no special manufacturing technique,"textile finishing, manufacturing techniques",1,0.3607599139213562
+317,plain (pattern),textile pattern,1,0.4162131547927856
+318,abstract,textile pattern,1,0.2802815735340118
+319,cartoon,textile pattern,1,0.2670806646347046
+320,"letters, numbers",textile pattern,1,0.3602933883666992
+321,camouflage,textile pattern,1,0.3527892827987671
+322,check,textile pattern,1,0.3251392841339111
+323,dot,textile pattern,1,0.2882058918476105
+324,fair isle,textile pattern,1,0.243107870221138
+325,floral,textile pattern,1,0.3713214099407196
+326,geometric,textile pattern,1,0.3061249852180481
+327,paisley,textile pattern,1,0.2321139872074127
+328,stripe,textile pattern,1,0.3465360105037689
+329,houndstooth (pattern),textile pattern,1,0.3192669153213501
+330,herringbone (pattern),textile pattern,1,0.1368862390518188
+331,chevron,textile pattern,1,0.3011827170848846
+332,argyle,textile pattern,1,0.255193680524826
+333,leopard,animal,2,0.4013484120368957
+334,snakeskin (pattern),animal,2,0.256228893995285
+335,cheetah,animal,2,0.2581621408462524
+336,peacock,animal,2,0.0953831374645233
+337,zebra,animal,2,0.2363722920417785
+338,giraffe,animal,2,0.2320878207683563
+339,toile de jouy,textile pattern,1,0.3088500499725342
+340,plant,textile pattern,1,0.2748549282550812
