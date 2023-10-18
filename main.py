@@ -24,12 +24,14 @@ async def upload(input_image: UploadFile = File(...)):
 
     if input_image.file is None:
         return ErrorCode("Vui lòng truyền dữ liệu ảnh vào formdata")
-    imgStr = input_image.file.read()
     
     # check the content type (MIME type)
     content_type = input_image.content_type
     if content_type not in ["image/jpeg", "image/png", "image/gif"]:
         raise HTTPException(status_code=400, detail="Invalid file type")
+    
+    imgStr = input_image.file.read()
+    
     
     # npimg = np.fromstring(imgStr, np.uint8)
     npimg = np.frombuffer(imgStr, np.uint8)
