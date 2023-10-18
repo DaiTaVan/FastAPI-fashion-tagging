@@ -40,7 +40,7 @@ async def upload(input_image: UploadFile = File(...)):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     prediction = modelEngine.process_one_image(image = image, image_name = input_image.filename)
     
-    return {"message": prediction}
+    return prediction
 
 
 @app.post("/upload_multiple_images/")
@@ -60,7 +60,7 @@ async def upload_files(input_images: list[UploadFile]):
             prediction = modelEngine.process_one_image(image = image, image_name = input_image.filename)
             results = results | prediction
     
-    return {"message": results}
+    return results
 
 
 if __name__=="__main__":
