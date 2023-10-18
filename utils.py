@@ -419,7 +419,7 @@ class FashionTagging():
         new_prediction_element['bbox'] = prediction_element['bbox']
         new_prediction_element['category_info'] = prediction_element['category_info']
         new_prediction_element['attribute_info'] = []
-        for attribute_index, attribute_content in prediction_element['attribute_info'].items():
+        for _, attribute_content in prediction_element['attribute_info'].items():
           new_element_of_attribute_info = {}
           new_element_of_attribute_info["supercategory"] = attribute_content["supercategory"]
           # new_element_of_attribute_info["id"] = attribute_index

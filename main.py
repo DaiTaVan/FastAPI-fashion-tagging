@@ -39,12 +39,6 @@ async def upload(input_image: UploadFile = File(...)):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     prediction = modelEngine.process_one_image(image)
     
-    # message = []
-    # for obj in prediction:
-    #     box = {}
-    #     box["category"] = obj["category_info"]["name"]
-    #     box["attribute"] = [i["name"] for i in obj["attribute_info"].values()]
-    #     message.append(box)
     return {"message": prediction}
 
 if __name__=="__main__":
