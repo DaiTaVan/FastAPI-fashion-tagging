@@ -26,8 +26,7 @@ async def upload(input_image: UploadFile = File(...)):
         return ErrorCode("Vui lòng truyền dữ liệu ảnh vào formdata")
     
     # check the content type (MIME type)
-    content_type = input_image.content_type
-    if content_type not in ["image/jpeg", "image/png", "image/gif"]:
+    if input_image.content_type not in ["image/jpeg", "image/png", "image/gif"]:
         raise HTTPException(status_code=400, detail="Invalid file type")
     
     imgStr = input_image.file.read()
@@ -39,9 +38,30 @@ async def upload(input_image: UploadFile = File(...)):
     image = cv2.imdecode(npimg, flags=1)
 
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    prediction = modelEngine.process_one_image(image)
+    prediction = modelEngine.process_one_image(image = image, image_name = input_image.filename)
     
     return {"message": prediction}
+
+
+@app.post("/upload_multiple_images/")
+async def upload_files(input_images: list[UploadFile]):
+    results = {}
+    for input_image in input_images:
+        if input_image.content_type not in ["image/jpeg", "image/png", "image/gif"]:
+            results = results | {input_image.filename: "Invalid file type"}
+        else:
+            imgStr = input_image.file.read()
+
+            # npimg = np.fromstring(imgStr, np.uint8)
+            npimg = np.frombuffer(imgStr, np.uint8)
+            image = cv2.imdecode(npimg, flags=1)
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+            prediction = modelEngine.process_one_image(image = image, image_name = input_image.filename)
+            results = results | prediction
+    
+    return {"message": results}
+
 
 if __name__=="__main__":
     uvicorn.run(app,host="127.0.0.1",port=8000)

@@ -22,21 +22,22 @@ class FashionTagging():
       self.merging_map, self.type_of_cloth = self.load_map()
 
       # first run
-      self.process_one_image(cv2.cvtColor(cv2.imread('assets/polo (shirt)_2.jpeg'), cv2.COLOR_BGR2RGB))
+      self.process_one_image(image = cv2.cvtColor(cv2.imread('assets/polo (shirt)_2.jpeg'), cv2.COLOR_BGR2RGB),
+                             image_name = 'sample_image.jpg')
 
 
-  def process_one_image(self, img_ori, id = 1):
-      img = tf.constant(img_ori, dtype = tf.uint8)
+  def process_one_image(self, image, image_name, id = 1):
+      img = tf.constant(image, dtype = tf.uint8)
       img = tf.expand_dims(img, axis = 0)
 
       prediction = self.model(input = img)
       prediction['source_id'] = np.array([id])
 
-      image_scale = self.get_image_scale(img_ori.shape[:2], 1024)
+      image_scale = self.get_image_scale(image.shape[:2], 1024)
       prediction = self.postprocess(prediction, image_scale = image_scale)
 
 
-      return prediction
+      return {image_name: prediction}
   
   def postprocess(self, predictions, image_scale, score_threshold = 0.8):
 
