@@ -39,7 +39,7 @@ class FashionTagging():
 
       return {image_name: prediction}
   
-  def postprocess(self, predictions, image_scale, score_threshold = 0.8):
+  def postprocess(self, predictions, image_scale, score_threshold = 0.7):
 
     predictions = self.convert_to_numpy(predictions)
     predictions = self.process_predictions(predictions, image_scale)

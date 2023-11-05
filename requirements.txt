@@ -1,0 +1,9 @@
+fastapi==0.104.0
+numpy
+opencv_python==4.8.0.76
+opencv_python_headless==4.8.0.74
+pandas==2.0.3
+six==1.16.0
+tensorflow==2.13.0
+tqdm==4.65.0
+uvicorn==0.23.2
