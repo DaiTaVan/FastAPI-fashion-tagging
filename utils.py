@@ -341,8 +341,10 @@ class FashionTagging():
       category_map = pd.read_csv('assets/category_map.csv', index_col = 0)
       attribute_map = pd.read_csv('assets/attribute_map.csv', index_col= 0)
 
+      support_att = np.array(json.load(open('assets/support_attributes.json'))["support_att"])
+
       map_new_id_att = {key: value for value, key in enumerate(list(attribute_map.index))}
-      category_to_attribute_content = json.load(open('assets/category-attributes.json', 'r'))
+      category_to_attribute_content = json.load(open('assets/category-attributes-2.json', 'r'))
       category_to_attribute_map = {}
 
       for ix in range(46):
@@ -350,7 +352,12 @@ class FashionTagging():
           if str(ix) in category_to_attribute_content.keys():
               for ele in category_to_attribute_content[str(ix)]:
                   value[map_new_id_att[ele]] = 1.
-          category_to_attribute_map[ix + 1] = value
+          category_to_attribute_map[ix + 1] = value  * support_att
+
+      # print(category_to_attribute_map)
+
+      
+      
       
       imposible_pair = json.load(open('assets/imposible_pair.json'))['imposible_pair']
 
